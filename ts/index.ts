@@ -9,13 +9,13 @@ window.addEventListener("load", () => {
   // document.body.requestFullscreen().then(res=>console.log(res)).catch(err=>console.log(err))
   // screen.orientation.lock('landscape').then(res=>console.log(res)).catch(err=>console.log(err))
   
-  // const PARTICLES_PER_LAUNCH = 20
+  const PARTICLES_PER_LAUNCH = 20
   
-  // // Launch particles
-  // setInterval(() => { 
-  //   for (let counter = 0; counter < PARTICLES_PER_LAUNCH; counter++)
-  //     launchConfettiParticle() 
-  // }, 800 * 2)
+  // Launch particles
+  setInterval(() => { 
+    for (let counter = 0; counter < PARTICLES_PER_LAUNCH; counter++)
+      launchConfettiParticle() 
+  }, 800 * 2)
 })
 
 
