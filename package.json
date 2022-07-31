@@ -2,9 +2,9 @@
   "name": "erick-birthday",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Particle.js",
   "scripts": {
-    "start": "node build/index.js"
+    "start": "tsc --watch"
   },
   "keywords": [],
   "author": "",
