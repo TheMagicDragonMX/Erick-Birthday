@@ -15,18 +15,16 @@
 
 	background-color: var(--confettiColor, #FFF);
 
-	animation: spinLikeFallingConfetti 0.5s linear 0.01s infinite;
+	animation: spinLikeFallingConfetti 0.5s linear infinite;
 }
 
 @keyframes spinLikeFallingConfetti {
 	0% {
 		transform: rotateX(0deg) rotateZ(10deg);
-		-webkit-transform: rotateX(0deg) rotateZ(10deg);
 	}
 	
 	100% {
 		transform: rotateX(360deg) rotateZ(10deg);
-		-webkit-transform: rotateX(360deg) rotateZ(10deg);
 	}
 }
 
@@ -40,34 +38,30 @@
 }
 
 .confetti-particle-launch-wrapper > .x-movement {
-  animation: tiltLaunch var(--launchDuration) var(--launchTimingFunction) 0.01s forwards;
+  animation: tiltLaunch var(--launchDuration) var(--launchTimingFunction) forwards;
 }
 
 @keyframes tiltLaunch {
 	0% {
 		transform: translateX(0);
-		-webkit-transform: translateX(0);
 	}
 
 	100% {
 		transform: translateX(var(--xEndPoint, 0px));
-		-webkit-transform: translateX(var(--xEndPoint, 0px));
 	}
 }
 
 .confetti-particle-launch-wrapper > .x-movement > .y-movement {
-  animation: launchParticle var(--launchDuration) var(--launchTimingFunction) 0.01s forwards;
+  animation: launchParticle var(--launchDuration) var(--launchTimingFunction) forwards;
 }
 
 @keyframes launchParticle {
 	0% {
 		transform: translateY(0);
-		-webkit-transform: translateY(0);
 	}
 	
 	100% {
 		transform: translateY(var(--yEndPoint, -100px));
-		-webkit-transform: translateY(var(--yEndPoint, -100px));
 	}
 }
 
@@ -97,11 +91,9 @@
 @keyframes fall {
   0% {
     transform: translateY(0);
-    -webkit-transform: translateY(0);
   }
 
   100% {
     transform: translateY(1000px);
-    -webkit-transform: translateY(1000px);
   }
 }
