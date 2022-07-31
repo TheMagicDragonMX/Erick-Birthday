@@ -61,7 +61,7 @@
 	}
 	
 	100% {
-		transform: translateY(var(--yEndPoint, -100px));
+		transform: translateY(var(--yEndPoint, -200px));
 	}
 }
 
