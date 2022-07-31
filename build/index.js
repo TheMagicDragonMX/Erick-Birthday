@@ -4,9 +4,6 @@ window.addEventListener("load", () => {
     const card = document.getElementById("card");
     const cardWidth = card === null || card === void 0 ? void 0 : card.getBoundingClientRect().width;
     card.style.height = (cardWidth * 3 / 5) + "px";
-    // // Make page fullscreen
-    // document.body.requestFullscreen().then(res=>console.log(res)).catch(err=>console.log(err))
-    // screen.orientation.lock('landscape').then(res=>console.log(res)).catch(err=>console.log(err))
     const PARTICLES_PER_LAUNCH = 20;
     // Launch particles
     setInterval(() => {
