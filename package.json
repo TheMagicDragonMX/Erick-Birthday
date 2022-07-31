@@ -2,7 +2,7 @@
   "name": "erick-birthday",
   "version": "1.0.0",
   "description": "",
-  "main": "Particle.js",
+  "main": "index.js",
   "scripts": {
     
   },
