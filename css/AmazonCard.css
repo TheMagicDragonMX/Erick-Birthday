@@ -34,6 +34,7 @@
 
 .card-checkbox {
   appearance: none;
+  -webkit-appearance: none;
 }
 
 .card-checkbox:checked ~ .card {
@@ -46,6 +47,7 @@
   height: 100%;
 
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   
   /* background-color: aqua; */
   transition: 1s;
@@ -62,6 +64,7 @@
 
   transform: rotateY(180deg);
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 
   /* background-color: blueviolet; */
   transition: 1s;
