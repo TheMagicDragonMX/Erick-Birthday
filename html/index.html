@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="/css/AmazonCard.css">
+	<link rel="stylesheet" href="/css/Confetti.css">
+	
+	<link rel="icon" href="/assets/page-logo.png" type="image/png">
+	<title>Feliz cumpleaños!</title>
+</head>
+<body>
+	
+	<h1>Feliz cumpleaños Erick!</h1>
+	
+	<label class="card-container">
+		<input type="checkbox" class="card-checkbox">
+
+		<div class="card" id="card">
+			<div class="card-front">
+				<img src="/assets/amazon-corner-logo.png" class="amazon-corner-logo"></img>
+				<img src="/assets/amazon-logo.png" class="amazon-logo"></img>
+			</div>
+
+			<div class="card-back">
+				<div class="black-bar"></div>
+				<div class="code">XXXX-XXXX-XXXX-XXXX</div>
+			</div>
+		</div>
+	</label>
+	
+	<div class="confetti" id="confettiArea"></div>
+
+	<script src="/build/index.js"></script>
+	<script src="/build/util/ConfettiParticleColors.js"></script>
+	<script src="/build/helpers/getRandomInt.js"></script>
+	<script src="/build/ConfettiParticle.js"></script>
+</body>
+</html>
