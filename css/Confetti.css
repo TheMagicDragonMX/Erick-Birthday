@@ -21,10 +21,12 @@
 @keyframes spinLikeFallingConfetti {
 	0% {
 		transform: rotateX(0deg) rotateZ(10deg);
+		-webkit-transform: rotateX(0deg) rotateZ(10deg);
 	}
 	
 	100% {
 		transform: rotateX(360deg) rotateZ(10deg);
+		-webkit-transform: rotateX(360deg) rotateZ(10deg);
 	}
 }
 
@@ -44,10 +46,12 @@
 @keyframes tiltLaunch {
 	0% {
 		transform: translateX(0);
+		-webkit-transform: translateX(0);
 	}
 
 	100% {
 		transform: translateX(var(--xEndPoint, 0px));
+		-webkit-transform: translateX(var(--xEndPoint, 0px));
 	}
 }
 
@@ -58,10 +62,12 @@
 @keyframes launchParticle {
 	0% {
 		transform: translateY(0);
+		-webkit-transform: translateY(0);
 	}
 	
 	100% {
 		transform: translateY(var(--yEndPoint, -100px));
+		-webkit-transform: translateY(var(--yEndPoint, -100px));
 	}
 }
 
@@ -91,9 +97,11 @@
 @keyframes fall {
   0% {
     transform: translateY(0);
+    -webkit-transform: translateY(0);
   }
 
   100% {
     transform: translateY(1000px);
+    -webkit-transform: translateY(1000px);
   }
 }
