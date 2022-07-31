@@ -4,7 +4,7 @@
   "description": "",
   "main": "Particle.js",
   "scripts": {
-    "start": "tsc --watch"
+    
   },
   "keywords": [],
   "author": "",
