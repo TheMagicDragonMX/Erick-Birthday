@@ -15,7 +15,7 @@
 
 	background-color: var(--confettiColor, #FFF);
 
-	animation: spinLikeFallingConfetti 0.5s linear infinite;
+	animation: spinLikeFallingConfetti 0.5s linear 0.01s infinite;
 }
 
 @keyframes spinLikeFallingConfetti {
@@ -38,7 +38,7 @@
 }
 
 .confetti-particle-launch-wrapper > .x-movement {
-  animation: tiltLaunch var(--launchDuration) var(--launchTimingFunction) forwards;
+  animation: tiltLaunch var(--launchDuration) var(--launchTimingFunction) 0.01s forwards;
 }
 
 @keyframes tiltLaunch {
@@ -52,7 +52,7 @@
 }
 
 .confetti-particle-launch-wrapper > .x-movement > .y-movement {
-  animation: launchParticle var(--launchDuration) var(--launchTimingFunction) forwards;
+  animation: launchParticle var(--launchDuration) var(--launchTimingFunction) 0.01s forwards;
 }
 
 @keyframes launchParticle {
