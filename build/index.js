@@ -1,9 +1,9 @@
 "use strict";
 window.addEventListener("load", () => {
-    // // Adjust card height
-    // const card = document.getElementById("card") as HTMLDivElement
-    // const cardWidth = card?.getBoundingClientRect().width
-    // card.style.height = (cardWidth * 3 / 5) + "px";
+    // Adjust card height
+    const card = document.getElementById("card");
+    const cardWidth = card === null || card === void 0 ? void 0 : card.getBoundingClientRect().width;
+    card.style.height = (cardWidth * 3 / 5) + "px";
     // // Make page fullscreen
     // document.body.requestFullscreen().then(res=>console.log(res)).catch(err=>console.log(err))
     // screen.orientation.lock('landscape').then(res=>console.log(res)).catch(err=>console.log(err))
